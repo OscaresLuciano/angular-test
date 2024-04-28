@@ -1,3 +1,5 @@
-<ul class="list">
-  <li *ngFor="let item of arrayStringParam">{{ item }}</li>
-</ul>
+<section class="row">
+  <mat-card *ngFor="let item of arrayStringParam">
+    <mat-card-content> {{ item }}</mat-card-content>
+  </mat-card>
+</section>
