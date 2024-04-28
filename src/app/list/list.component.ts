@@ -13,7 +13,7 @@ export class ListComponent {
   @Input() arrayStringParam?: Array<string>;
   @Input() objectParam: any;
 
-  ngOnInit(): void { }
+  ngOnInit(): void {}
   ngOnChanges(changes: SimpleChanges): void {
     if (changes['arrayStringParam']) {
       this.arrayStringParam = this.reverseArray(this.arrayStringParam);
