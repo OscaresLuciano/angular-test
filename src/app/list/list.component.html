@@ -1,5 +1,5 @@
 <section class="row">
-  <mat-card *ngFor="let item of arrayStringParam">
+  <mat-card *ngFor="let item of arrayNumbersParam | filter: numberParam">
     <mat-card-content> {{ item }}</mat-card-content>
   </mat-card>
 </section>

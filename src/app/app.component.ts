@@ -14,6 +14,6 @@ import { FormsModule } from '@angular/forms';
 export class AppComponent {
   title = 'angular-test';
 
-  arrayStringParam = ['5', '9', '8', '2', '7', '3', '4', '1', '8', '4'];
+  arrayNumbersParam = [5, 9, 8, 2, 7, 3, 4, 1, 8, 4];
   numberParam?: number;
 }

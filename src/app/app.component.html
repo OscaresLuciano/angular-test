@@ -1,10 +1,10 @@
 <article class="center-content">
   <mat-form-field>
     <mat-label>Mayor a:</mat-label>
-    <input matInput type="text" [(ngModel)]="numberParam" />
+    <input matInput type="number" [(ngModel)]="numberParam" />
   </mat-form-field>
   <app-list
     [numberParam]="numberParam"
-    [arrayStringParam]="arrayStringParam"
+    [arrayNumbersParam]="arrayNumbersParam"
   ></app-list>
 </article>
